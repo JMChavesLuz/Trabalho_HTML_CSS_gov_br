@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gov.br - Acesse sua conta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="https://sso.acesso.gov.br/assets/govbr/img/govbr.png" alt=""></a>
+        <div>
+            <div class="teste"><a href="#">Alto Contraste</a></div>
+            <div class="teste"><a href="#">VLibras</a></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="imagem_ao_lado">
+            <img id="identidade-govbr" src="https://sso.acesso.gov.br/assets/govbr/img/conta_govbr_v2.jpg" alt="">
+        </div>
+
+        <main>
+            <form>
+                <div class="card" id="login-cpf">
+                    <h3>Identifique-se no gov.br com:</h3>
+
+                    <div>
+                        <a href="#">
+                            <img id="icone1"
+                                src="https://sso.acesso.gov.br/assets/govbr/img/icons/id-card-solid.png">Número do CPF
+                        </a>
+                    </div>
+
+                    <div>
+                        <p>
+                            Digite seu CPF para <strong>criar</strong> ou <strong>acessar</strong> sua conta gov.br
+                        </p>
+                        <label>CPF</label>
+                        <input id="campo_cpf" type="text" placeholder="Digite seu CPF">
+                        <div class="button-panel">
+                            <button type="submit">Continuar</button>
+                        </div>
+                    </div>
+
+                    <label>Outras opções de identificação:</label>
+                    <hr>
+                    <div class="outros_links">
+                        <a href="#" style="color:#008C32">
+                                <img id="icone2" src="https://sso.acesso.gov.br/assets/govbr/img/icons/InternetBanking-green.png">
+                                Login com seu banco
+                            <span
+                                style="font-size: 7px; background-color: #008C32; color: white; padding: 3px; top: -3px; position: relative; margin-left: 8px;">SUA
+                                CONTA SERÁ PRATA
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="outros_links">
+                        <a href="#" style="color: black">
+                            <img id="icone3" src="https://sso.acesso.gov.br/assets/govbr/img/icons/qrcode.png">
+                            Login com QR code
+                        </a>
+                    </div>
+
+                    <div class="outros_links">
+                        <a href="#" style="color: black">
+                            <img id="icone4" src="https://sso.acesso.gov.br/assets/govbr/img/icons/CD.png">
+                            Seu certificado digital
+                        </a>
+                    </div>
+
+                    <div class="outros_links">
+                        <a href="#" style="color: black"><img id="icone5" src="https://sso.acesso.gov.br/assets/govbr/img/icons/CD-Nuvem.png">Seu certificado digital em nuvem</a>
+                    </div>
+
+                    <div class="outros_links" id="teste">
+                        <a href="#"><img src="https://sso.acesso.gov.br/assets/govbr/fontawesome/webfonts/circle-question-solid.svg" id="icone6">Está com dúvidas e precisa de ajuda?</a>
+                        <br>
+                        <a href="#">Termo de Uso e Aviso de Privacidade</a>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

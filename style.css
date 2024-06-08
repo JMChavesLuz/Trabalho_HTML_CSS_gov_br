@@ -1,0 +1,168 @@
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 6px #00000029;
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+body
+{
+    color: #333333;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+header img
+{
+    width: 100px;
+    margin: 10px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container img
+{
+    width: 869px;
+    height: 628px;
+}
+
+#icone1
+{
+    width: 24px;
+    height: 21px;
+}
+
+#icone2
+{
+    width: 24px;
+    height: 24px;
+}
+
+#icone3
+{
+    width: 24px;
+    height: 24px;
+}
+
+#icone4
+{
+    width: 24px;
+    height: 24px;
+}
+
+#icone5
+{
+    width: 24px;
+    height: 24px;
+}
+
+#icone6
+{
+    width: 13px;
+    height: 13px;
+}
+
+main
+{
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 2px 4px #00000033;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.imagem_ao_lado
+{
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 80px;
+}
+
+#identidade-govbr
+{
+    width: 669px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+#campo_cpf
+{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+button
+{
+    width: 145px;
+    height: 40px;
+    padding: 10px;
+    background-color: #1351B4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 3px #00000029;
+    border-radius: 24px;
+    margin-left: 230px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input:focus
+{
+    background-color: rgba(242, 227, 23, 0.3);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.teste
+{
+    color: #333333;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.outros_links
+{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+#teste
+{
+    margin-top: 80px;
+}
